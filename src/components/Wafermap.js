@@ -49,7 +49,8 @@ const Wafermap = ({ points, configuration }) => {
         .attr('x', radius)
         .attr('y', radius)
         .attr('font-size', '2px')
-        .text(i.mouseover)
+        .text(i.x)
+        .text(i.y)
     }
 
     var mouseout = function(d, i) {  // eslint-disable-line no-unused-vars
